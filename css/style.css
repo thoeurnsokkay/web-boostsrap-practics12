@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dce0e9;
+}
+section .container{
+  width: 900px;
+}
+.container .collapse-header .btn:hover h2 {
+  color: teal;
+}
+.collapse .card .graduat {
+  position: relative;
+}
+.collapse .card .graduat .icon i {
+  background-color: #dce0e9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collapse .card .graduat .icon {
+  transform: translateX(2px);
+}
+.container .collapse-header .d-flex .btn .text i {
+  font-size: 25px;
+  color: #dce0e9;
+}
+.collapse .card .graduat .education-detail,
+.collapse .card .graduat .experience-detail {
+  border-left: 4px solid #dce0e9;
+  height: 120px;
+  margin-left: -25px;
+}
+.collapse .card .graduat .experience-detail {
+  margin-bottom: 100px;
+  width: 650px;
+}
+.collapse .card .graduat .experience-detail p{
+  font-size: 17px;
+}
+.rotate {
+  transform: rotate(90deg);
+  margin-left: 5px;
+}
+.fa-circle-chevron-down {
+  cursor: pointer;
+}
+
+
